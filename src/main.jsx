@@ -4,7 +4,7 @@ import App from "./App.jsx";
 import "./index.css";
 // Permitir modificar los estilos propios y dejar los de material en segundo plano
 import { StyledEngineProvider } from "@mui/material";
-// Importar todos los provider de la aplicacion
+// Importar todos los provider de la aplicacion 
 import { InputProvider } from "./hooks/useInputContext.jsx";
 import { AvatarProvider } from "./hooks/useAvatarContext.jsx";
 import { RoutineProvider } from "./hooks/useRoutineContext.jsx";
